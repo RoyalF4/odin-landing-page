@@ -118,3 +118,22 @@ body{
 .cards > div {
     width: 150px;
 }
+
+.quote {
+    padding: 50px 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.quote p {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote span {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 20px;
+}
