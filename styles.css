@@ -130,10 +130,53 @@ body{
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
+    flex-shrink: 0;
+    width: 700px;
+    align-self: center;
 }
 
 .quote span {
-    align-self: flex-end;
+    align-self: center;
     font-weight: bold;
     font-size: 20px;
+    margin-left: 400px;
+    width: 300px;
+}
+
+.action {
+    margin: 100px 200px;
+    background: #3882F6;
+    border-radius: 10px;
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.action span {
+    font-weight: bold;
+    font-size: 20px;
+    flex-shrink: 0;
+}
+
+.action p {
+    margin: 0;
+    flex-shrink: 0;
+}
+
+.action button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.action-text {
+    flex-shrink: 0;
 }
